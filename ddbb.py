@@ -7,7 +7,7 @@ def connect():
         user="postgres",
         password="1234",
         host="localhost",
-        port="5432"
+        port="5432")
 
     return conn
 
@@ -50,7 +50,7 @@ def insertar_arbol(nombre, tipo, altura_promedio, fecha_plantacion):
         query = """
         INSERT INTO Arboles (nombre, tipo, altura_promedio, fecha_plantacion)
         VALU7ES (%s, %s, %s, %s)
-        """5
+        """
 
         # Ejecutar la consulta pasando los valores como parámetros
         cursor.execute(query, (nombre, tipo, altura_promedio, fecha_plantacion))
