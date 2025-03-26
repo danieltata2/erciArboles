@@ -38,7 +38,7 @@ def insertar_arbol(nombre, tipo, altura_promedio, fecha_plantacion):
 
     Parámetros:
     - nombre (str): Nombre del árbol (ejemplo: "Pino").
-    - tipo (str): Puede ser "Perenne" o "Caduca".
+    - tipo (str): Puede. ser "Perenne" o "Caduca".
     - altura_promedio (int): Altura promedio del árbol en metros.
     - fecha_plantacion (str): Fecha en formato 'YYYY-MM-DD' de la plantación.
     """
